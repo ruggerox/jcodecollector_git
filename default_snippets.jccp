@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcc-snippets-package version="2.5">
+  <snippet>
+    <category>Uncategorized</category>
+    <name>Add a button with background image</name>
+    <tag>image</tag>
+    <tag>nsbutton</tag>
+    <tag>objective c</tag>
+    <syntax>Objective C</syntax>
+    <code>- (void)viewDidLoad {
+    contentView = [[UIImageView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+
+    [contentView setImage:[UIImage imageNamed:@"IMAGE_NAME.jpg"]];
+    [contentView setUserInteractionEnabled:YES];
+
+    self.view = contentView;
+    [contentView release];
+
+    UIButton *startButton = [[UIButton alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 180.0f, 130.0f)];
+
+    [startButton setBackgroundImage:[[UIImage imageNamed:@"BACKGROUND_IMAGE.png"]
+   stretchableImageWithLeftCapWidth:110.0
+                       topCapHeight:0.0]
+                           forState:UIControlStateNormal];
+    [startButton setCenter:CGPointMake(195.0f, 208.0f)];
+    [startButton addTarget:self
+                    action:@selector(playSound:)
+          forControlEvents:UIControlEventTouchUpInside];
+
+    [contentView addSubview:startButton];
+    [super viewDidLoad];
+}</code>
+    <comment />
+  </snippet>
+  <snippet>
+    <category>Uncategorized</category>
+    <name>HTML page</name>
+    <tag>html</tag>
+    <syntax>HTML</syntax>
+    <code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"&gt;
+&lt;html&gt;
+ 
+    &lt;head&gt;
+        &lt;title&gt; title &lt;/title&gt;
+    &lt;/head&gt;
+ 
+    &lt;body&gt;
+    &lt;/body&gt;
+ 
+&lt;/html&gt;</code>
+    <comment />
+  </snippet>
+</jcc-snippets-package>
+

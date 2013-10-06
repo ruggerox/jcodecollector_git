@@ -1,0 +1,6 @@
+ 
+Se debe ejecutar incializar_dir.sh antes de ejecutar launch_jcc.sh o launch_jcc_git.sh por primera vez. 
+De lo contrario se puede borrar el directorio primero ejecutando: (borra todo, exportar snippets si es necesario).
+ $HOME/.jCodeCollector/jCodeCollector
+
+Luego utilizar launch_jcc_git.sh para que utilice git. (arrancar directamente podría romper el repositorio)

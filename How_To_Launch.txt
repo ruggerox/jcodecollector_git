@@ -1,0 +1,15 @@
+jCodeCollector 2.5 for LINUX
+
+How to launch jCC
+
+- open a shell 
+- move into jCodeCollector folder
+- type ./launch_jcc.sh (or "java -jar jcodecollector.jar -Dawt.useSystemAAFontSettings=o")
+- have fun!
+
+(jCC database default location is ~/.jCodeCollector)
+
+-----
+Alessandro Cocco
+alessandro.cocco@javastaff.com
+http://www.alessandrococco.com

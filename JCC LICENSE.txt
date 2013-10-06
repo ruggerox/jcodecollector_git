@@ -1,0 +1,7 @@
+Redistribution of jCodeCollector is permitted only if the application and its documentation in its entirety, unaltered, is included. This software may not be redistributed as part of another package for which there is a charge. When quoting material from author's site, please include appropriate credit.
+
+You may not use this work for commercial purposes: if you want to use jCodeCollector for commercial purposes, write me an email.
+
+Alessandro Cocco
+alessandro.cocco@javastaff.com
+alessandro-cocco.blogspot.com
