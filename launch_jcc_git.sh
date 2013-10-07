@@ -1,4 +1,7 @@
-primerdir=$(pwd)
+#!/bin/bash
+# primerdir=$(pwd)
+primerdir=$(dirname $(readlink -f $0))
+# echo $primerdir > $HOME/what
 conflicto=
 echo "Actualizando base de datos"
 cd $HOME/.jCodeCollector/jCodeCollector
