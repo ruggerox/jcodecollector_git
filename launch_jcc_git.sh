@@ -6,6 +6,10 @@ conflicto=
 echo "Actualizando base de datos"
 cd $HOME/.jCodeCollector/jCodeCollector
 pulling=$(timeout 30 git pull --rebase 2>&1)
+if [[ $? == 1  ]] || ;then
+   conflicto=true
+   kdialog --passivepopup "Error haciendo Pull en $(pwd)"
+fi
 echo -.- ${pulling} -.-
 if [[ "${pulling,,}" == *conflict* ]];then
    conflicto=true
